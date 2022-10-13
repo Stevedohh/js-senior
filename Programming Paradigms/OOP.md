@@ -99,10 +99,37 @@ Think of a stereo system as an object with a complex logic board on the inside. 
 
 ## Polymorphism
 
-**Polymorphism** is the provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types. The concept is borrowed from a principle in biology where an organism or species can have many different forms or stages.
+**Polymorphism** is the provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types. 
+**Polymorphism** is the ability for code to change depends on context.
+**Polymorphism** allow to create the same methods with different behavior.
 
+```ad-info
+The concept is borrowed from a principle in biology where an organism or species can have many different forms or stages.
+```
 
 The most commonly recognized major classes of polymorphism are:
 1. **Ad hoc polymorphism**: defines a common interface for an arbitrary set of individually specified types.
 2. **Parametric polymorphism**: not specifying concrete types and instead use abstract symbols that can substitute for any type.
 3. **Subtyping** (also called subtype polymorphism or inclusion polymorphism): when a name denotes instances of many different classes related by some common superclass.
+
+### Ad hoc polymorphism
+is a kind of polymorphism in which polymorphic functions can be applied to arguments of different types, because a polymorphic function can denote a number of distinct and potentially heterogeneous implementations depending on the type of argument(s) to which it is applied
+
+**Code example**
+
+```ts
+function Add(x: number, y: number) {  
+    return x + y;  
+}  
+  
+function Add(x: number, y: string) {  
+    return `${String(x)} + ${y}`;  
+}
+```
+
+### Parametric polymorphism
+allows a single piece of code to be given a "generic" type, using variables in place of actual types, and then instantiated with particular types as needed. The idea is simple: you state what types will be used by a particular class
+
+
+
+
