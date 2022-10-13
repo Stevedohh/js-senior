@@ -65,4 +65,5 @@ The main difference between inheritance and composition is in the relationship b
 
 ## Encapsulation
 
-Encapsulation is about hidding things from the end user. In js we can do it with hash symbol(#)
+Encapsulation is about hidding things from the end user. In JS we can do it with hash symbol(#)
+[[JavaScript/Classes#Пример приватных полей класса|Example]]

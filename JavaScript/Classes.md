@@ -1,0 +1,111 @@
+#### Пример обычного класса:
+```js
+class Human {
+	constructor(name, age) {
+		this.name = name
+		this.age = age
+	}
+	
+	introduce () {
+		return `My name is ${this.name}, I'm ${this.age} years old.`
+	}
+}
+```
+
+- **constructor** - это специальный метод, служащий для создания и инициализации объектов, созданных с использованием классов.
+
+> name и age, являются полями класса Human, а introduce методом этого же класса.
+
+---
+
+#### Пример наследования классов:
+```js
+class User extends Human {
+	constructor( name, age, email, password ) {
+		super(name,age)
+		this.email
+		this.password
+	}
+}
+```
+
+```js
+class User extends Human {
+	constructor( name, age, email, password ) {
+		super()
+		super.name = name
+		super.age = age
+		this.email
+		this.password
+	}
+}
+```
+- **extends** - ключевое слово для указателя класса от которого происходит наследование.
+- **super** - метод принимающий аргументы для конструктора класса, от которого происходит наследование.
+
+--- 
+
+#### Пример статических методов класса
+```js
+class Even {
+	constructor( value ) {
+		this.value = value
+	}
+	static isEven() {
+		return !(this.value % 2)
+	}
+	valueOf() {
+		return this.value
+	}
+}
+
+const two = new Even(2)
+
+console.log(
+    two.valueOf(), // 2
+    two.isEven(), // TypeError: two.isEven is not a function
+    Even.isEven(two.valueOf()) // true
+)
+```
+
+- **static** - это модификатор свойств и методов, которые доступны только при вызове относительно самого класса, экземпляры класса не имеют доступа к этим методам и свойствам.
+
+> В документации методы указываются следующим образом:
+> `Even.isEven(value)` - статический метод.
+> `Even.prototype.valueOf()` - метод экземпляра.
+
+--- 
+
+#### Пример приватных полей класса
+```js
+class Human {
+    #name;
+    #surname;
+    
+    constructor ( name = 'Jhon', surname = 'Doe' ) {
+        this.#name = name
+        this.#surname = surname
+    }
+  
+    get name () {
+        return this.#name
+    }
+  
+    get surname () {
+        return this.#surname
+    }
+    
+    set name ( newName = 'Jhon' ) {
+        this.#name = newName
+    }
+    
+    set surname ( newSurname = 'Doe' ) {
+        this.#surname = newSurname
+    }
+}
+```
+
+- **Get** - это модификатор для методов класса, методы(гетеры) описывают регламент получения приватных полей класса.
+- **Set** - это модификатор для методов класса, методы(сетеры) описывают регламент изменения значений приватных полей класса.
+
+> Приватные поля объявляются вне конструктора класса и выделяются символом **#** стоящим в начале имени поля.

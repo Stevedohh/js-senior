@@ -139,15 +139,15 @@
   },
   "active": "4e9b3b7cb15c791a",
   "lastOpenFiles": [
-    "JavaScript/Prototype.md",
+    "JavaScript/Classes.md",
     "Programming Paradigms/OOP.md",
     "TypeScript/Classes.md",
     "JavaScript/Symbol.md",
-    "Communication Protocols/HTTP.md",
+    "JavaScript/Prototype.md",
     "Programming Paradigms/FP.md",
+    "Communication Protocols/HTTP.md",
     "11 Классы.md",
     "Communication Protocols/WebSockets and Long Polling.md",
-    "Communication Protocols/UDP.md",
-    "Communication Protocols/OSI and TCP IP.md"
+    "Communication Protocols/UDP.md"
   ]
 }
