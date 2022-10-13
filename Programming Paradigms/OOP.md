@@ -65,5 +65,13 @@ The main difference between inheritance and composition is in the relationship b
 
 ## Encapsulation
 
+Понятие инкапсуляции относится к объединению данных вместе с методами, которые работают с этими данными, в один объект. 
+
+```ad-attention
+Часто приписываемое свойство **сокрытие** является лишь следствием инкопсуляции
+```
+
+.
+
 Encapsulation is about hidding things from the end user. In JS we can do it with hash symbol(#)
 [[JavaScript/Classes#Пример приватных полей класса|Example]]
