@@ -130,6 +130,11 @@ function Add(x: number, y: string) {
 ### Parametric polymorphism
 allows a single piece of code to be given a "generic" type, using variables in place of actual types, and then instantiated with particular types as needed. The idea is simple: you state what types will be used by a particular class
 
+```ts
 
+const arrayOfNumbers: Array<number> = [1, 2, 3, 4, 5];
+const arrayOfStrings: Array<string> = ['a', 'b', 'c'];
+
+```
 
 
