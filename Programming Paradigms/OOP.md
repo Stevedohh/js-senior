@@ -36,9 +36,32 @@ OOP pros:
 
 If a class inherits from another class, it automatically obtains much of the same functionality and properties from that class and can be extended to contain separate code and data.
 
+```ad-warning
+**Является ли** кресло автомобилем? Нет, и наследоваться мы не можем.
+Есть автомобиль и можно сделать легковой или грузовой автомобиль.
+```
+
+---
+
 ## Composition 
 
-**Composition** is the design technique in object-oriented programming to implement **has-a** relationship between objects.
+**Composition** is the design technique in object-oriented programming to implement **has-a** relationship between objects. It describes a class that references one or more objects of other classes in instance variables.
+
+```ad-warning
+**Есть ли** у автомобиля двигатель? Да, и это композиция.
+```
+
+---
+
+## Composition vs Inheritance
+
+Inheritance and composition are two programming techniques developers use to establish relationships between classes and objects. Inheritance derives **one class from another**, composition defines a class as **the sum of its parts**.
+
+```ad-info
+The main difference between inheritance and composition is in the relationship between objects. Inheritance: “is a.” E.g. The car is a vehicle (**No**). Composition: “has a.” E.g. The car has a wheel (**Yes**).
+```
+
+---
 
 ## Encapsulation
 
