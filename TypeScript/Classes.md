@@ -1,0 +1,198 @@
+### Классы
+---
+Class - 
+
+**Простой пример класса**
+```ts
+class Entity1 {
+	public prop1;
+	public prop2;
+	constructor(prop1: string, prop2: number){
+		this.prop1 = prop1;
+		this.prop2 = prop2;
+	}
+}
+
+let a: Entity1 = new Entity1("abc",123);
+console.log(a);
+```
+
+**Упращенный пример класса**
+```ts
+class Entity2 {
+	constructor(
+		public prop1: string,
+		public prop2: number
+	){}
+}
+
+let b: Entity2 = new Entity2("abc",123);
+console.log(b);
+```
+
+**Пример класса без конструктора:**
+```ts
+class Entity3 {
+	public prop1: string | null = null;
+	public prop2: number | null = null;
+}
+
+let c: Entity3 = new Entity3();
+c.prop1 = "abc";
+c.prop2 = 123;
+console.log(c);
+```
+
+**Пример использования класса как дженерик типа**
+```ts
+class ListNode<T> {
+	constructor(
+		public value: T,
+		public next?: ListNode<T>
+	){}
+}
+
+const newNode: ListNode<number> = new ListNode(1);
+
+console.log(newNode); // ListNode: { "value": 1, "next": null }
+```
+
+---
+### Модификаторы доступа
+---
+
+Это модификаторы для свойств и методов класса, они позволяют управлять доступом состояния свойств. Существуют основные модификаторы доступа такие как: public, private, protected.
+
+- Модификатор **public** - устанавливается всем методам и свойствам по умолчанию, данный модификатор не накладывает никаких ограничений на доступ.
+
+```ts
+class X {
+	prop1: number
+	prop2: string
+}
+class Y {
+	public prop1: number
+	public prop2: string
+}
+// Классы X и Y ничем не отличаются друг от друга!
+```
+
+- Модификатор **private** - запрещает доступ к своим свойствам и методам извне при создании объекта данного класса.
+
+```ts
+class Y {
+	constructor(private prop1: number){}
+	getProp1(): number {
+		return this.prop1
+	}
+}
+let y: Y = new Y(1)
+console.log(v.getProp1()) // 1
+console.log(v.prop1) // Ошибка
+```
+
+- Модификатор **protected** - определяет свойства и методы, которые из вне класса видны только в классах-наследниках.
+
+```ts
+class Y {
+	constructor(protected prop1: number){}
+}
+
+class X extends Y {
+	constructor(prop1: number){
+		super(prop1)
+	}
+	getProp1(): number {
+		return this.prop1
+	}
+}
+
+let x: X = new X(1)
+console.log(x.getProp1()) // 1
+console.log(x.prop1) // Ошибка
+```
+
+---
+### Модификаторы Get и Set
+---
+
+Модификаторы **Get** и **Set**, это модификаторы методов управляющих получением и изменением приватных свойств класса.
+
+```ts
+class User {
+	private _birthday: Date
+	constructor(
+		public name: string,
+		date: Date
+	){
+		this._birthday = date
+	}
+	get birthday(): Date {
+		return this._birthday
+	}
+	set birthday(date: Date) {
+		this._birthday = date
+	}
+}
+
+let me: User = new User("Daniil", new Date("1999-11-27"))
+
+me.birthday = new Date("2001-11-27") // set birthday
+
+console.log(me.birthday) // Date: "2001-11-26T21:00:00.000Z"
+```
+
+---
+### Абстрактные классы
+---
+
+**Абстрактные классы** - это классы определенные с модификатором *abstract* отличаются тем, что мы не можем создать напрямую объект абстрактного класса, используя его конструктор. (Оператор new)
+
+Абстрактный класс может содержать:
+- абстрактные методы и свойства -  обазятельные для реализации классами наследниками.
+- оыбчные методы и свойства - наследуются как от обычного класса.
+
+```ts
+abstract class X{
+	someMethod():void{ // обычный метод
+		console.log("do something")
+	}
+	abstract mandatoryMethod(): void // абстрактный метод
+	abstract mandatoryProperty: string // абстрактное свойство
+}
+
+class Y extends X {
+	public mandatoryProperty = "mandatory property = обязательное свойство"
+	public mandatoryMethod(){
+		console.log("mandatory method = обязательный метод")
+	}
+}
+
+let y: Y = new Y()
+
+y.someMethod() // "do something"
+y.mandatoryMethod() // "mandatory method = обязательный метод"
+console.log(y.mandatoryProp) // "mandatory prop = обязательное свойство"
+```
+
+---
+### Статические методы
+---
+
+Статические поля и методы относятся к напрямую к классу, а не к его объектам.
+
+```ts
+class X {
+	static prop: number = 10
+	static method(): number {
+		return this.prop ** 3
+	}
+}
+
+console.log( X.prop ) // 10
+console.log( X.method() ) // 1000
+```
+
+---
+### Интерфесы классов и объектов
+---

@@ -34,6 +34,12 @@ OOP pros:
 - Простое наследование - когда класс может наследоваться только от одного класса.
 - Множественное наследование - когда класс может наследоваться сразу от нескольких других классов. 
 
+Inheritance is the design technique in object-oriented programming to implement **is-a** relationship between objects.
+If a class inherits from another class, it automatically obtains much of the same functionality and properties from that class and can be extended to contain separate code and data.
+
+## Composition 
+
+Composition is the design technique in object-oriented programming to implement **has-a** relationship between objects.
 
 ## Encapsulation
 
