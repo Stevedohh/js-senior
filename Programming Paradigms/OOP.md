@@ -68,10 +68,41 @@ The main difference between inheritance and composition is in the relationship b
 Понятие инкапсуляции относится к объединению данных вместе с методами, которые работают с этими данными, в один объект. 
 
 ```ad-attention
-Часто приписываемое свойство **сокрытие** является лишь следствием инкопсуляции
+Часто приписываемое свойство **сокрытие** является лишь следствием инкапсуляции
 ```
 
-.
+Сокрытие позволяет скрывать детали имплеменации от конечного пользователя.
 
-Encapsulation is about hidding things from the end user. In JS we can do it with hash symbol(#)
-[[JavaScript/Classes#Пример приватных полей класса|Example]]
+**Encapsulation in programming has a few key benefits. These include:**
+
+-   **Hiding Data**: Users will have no idea how classes are being implemented or stored. All that users will know is that values are being passed and initialized.
+-   **More Flexibility:** Enables you to set variables as red or write-only. Examples include: setName(), setAge() or to set variables as write-only then you only need to omit the get methods like getName(), getAge() etc.  
+-   **Easy to Reuse:** With encapsulation it's easy to change and adapt to new requirements.
+
+[[JavaScript/Classes#Пример приватных полей класса|Code Examples]]
+
+```ad-example
+When we implementing the perso, we might have private data in the class, such as "secretNumber," that should not be exposed to other objects in the program. By encapsulating this data member as a private variable in the class, outside code would not have direct access and it would remain safe within that person’s object.
+```
+
+---
+## Abstraction
+it's when you can separate the interface of a class from its implementation, and focus on the interface. This is allows to create a system as a **“black box”** where it’s not important to understand the gory inner workings in order to reap the benefits of using it.
+
+### Abstraction vs Inheritance
+
+**Abstraction** allows hiding the internal details and displaying only the functionality to the users, while **Inheritance** allows using properties and methods of an already existing class
+
+```ad-example
+Think of a stereo system as an object with a complex logic board on the inside. It has buttons on the outside to allow for interaction with the object. When you press a button, you're not thinking about what happens on the inside because you can't see it. Even though you can't see the logic board completing these functions as a result of pressing a button, it's still performing them
+```
+
+## Polymorphism
+
+**Polymorphism** is the provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types. The concept is borrowed from a principle in biology where an organism or species can have many different forms or stages.
+
+
+The most commonly recognized major classes of polymorphism are:
+1. **Ad hoc polymorphism**: defines a common interface for an arbitrary set of individually specified types.
+2. **Parametric polymorphism**: not specifying concrete types and instead use abstract symbols that can substitute for any type.
+3. **Subtyping** (also called subtype polymorphism or inclusion polymorphism): when a name denotes instances of many different classes related by some common superclass.

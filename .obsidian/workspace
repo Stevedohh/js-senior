@@ -130,24 +130,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "4e9b3b7cb15c791a",
   "lastOpenFiles": [
-    "Programming Paradigms/FP.md",
-    "Programming Paradigms/OOP.md",
-    "TypeScript/Classes.md",
-    "JavaScript/Classes.md",
-    "JavaScript/Symbol.md",
-    "JavaScript/Prototype.md",
+    "Communication Protocols/OSI and TCP IP.md",
     "Communication Protocols/HTTP.md",
-    "11 Классы.md",
+    "Communication Protocols/UDP.md",
+    "Programming Paradigms/OOP.md",
+    "JavaScript/Classes.md",
+    "Programming Paradigms/FP.md",
+    "TypeScript/Classes.md",
     "Communication Protocols/WebSockets and Long Polling.md",
-    "Communication Protocols/UDP.md"
+    "JavaScript/Prototype.md",
+    "JavaScript/Symbol.md"
   ]
 }
