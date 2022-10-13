@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JavaScript/Prototype.md",
+            "file": "Programming Paradigms/OOP.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Prototype.md",
+                "file": "Programming Paradigms/OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Prototype.md",
+                "file": "Programming Paradigms/OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Prototype.md"
+                "file": "Programming Paradigms/OOP.md"
               }
             }
           },
@@ -139,13 +139,15 @@
   },
   "active": "4e9b3b7cb15c791a",
   "lastOpenFiles": [
+    "Programming Paradigms/FP.md",
+    "11 Классы.md",
     "Programming Paradigms/OOP.md",
+    "JavaScript/Symbol.md",
+    "JavaScript/Prototype.md",
     "Communication Protocols/WebSockets and Long Polling.md",
     "Communication Protocols/UDP.md",
     "Communication Protocols/OSI and TCP IP.md",
     "Communication Protocols/HTTP.md",
-    "Programming Paradigms/FP.md",
-    "Programming Paradigms/Programming Paradigms.md",
-    "assets/Pasted image 20220912173019.png"
+    "Programming Paradigms/Programming Paradigms.md"
   ]
 }

@@ -1,0 +1,68 @@
+### Symbol
+Это уникальный и неизменяемый тип данных, который может использоваться в качестве ключа для свойства объекта.
+
+---
+
+#### Свойства объекта `Symbol`
+Из всех возможных примеров использования данного типа, использование его свойств, самое разнообразное и полезное.
+
+
+1. **Symbol.iterator** - свойство по умолчанию используется в итерируемых типах данных и в цикле `for...of`. Данное свойство позволяет реализовывать собственную механику поведения протокола *iterator* для различных объектов.
+
+> У данного свойства есть модификация `Symbol.asyncIterator`, на ней работает цикл `for await...of`.
+
+```js
+Number.prototype[Symbol.iterator] = function*() {
+    for (let i = 0; i < this;) yield ++i
+}
+
+console.log(...5) // 1 2 3 4 5
+```
+
+2. **Symbol.hasInstance** - свойство позволяет переопределить поведение оператора `instanceof`, что можно использовать для управления определения наследственности объектов.
+```js
+const Even = {
+    [Symbol.hasInstance](instance){
+        return !(instance % 2)
+    }
+}
+
+console.log(
+    1 instanceof Even, // false
+    2 instanceof Even, // true
+)
+```
+
+3. **Symbol.toPrimitive** - свойство позволяющее определить функцию реализующую приведение значения объекта к примитивному виду.
+```js
+class Int {
+    constructor(int){
+        this.int = int
+    }
+}
+
+Int.prototype[Symbol.toPrimitive] = function(){
+    return this.int
+}
+
+console.log( new Int(1) + new Int(1) ) // 2
+```
+
+4. **Symbol.toStringTag** - свойство позволяющее задасть значение отображаемое при приведении объекта к строке. 
+```js
+const obj = {
+    [Symbol.toStringTag]: "I am not a Object!"
+}
+
+console.log( obj.toString() ) // [object I am not a Object!]
+```
+
+И ряд менее популярных к использованию свойств символа:
+- **Symbol.isConcatSpreadable** - определяет необходимость разбирать массив на его элементы при объединении методом `Array.prototype.concat`
+- **Symbol.split** - определяет поведение одноименного метода `String.prototype.split`.
+- **Symbol.species** - позволяет определить конструктор, использующийся для создания порождённых объектов.
+- **Symbol.unscopables** - исключает свойства указанного объекта из свойств модифицируемого.
+- **Symbol.search**
+- **Symbol.replace**
+- **Symbol.match**
+- **Symbol.matchAll**
