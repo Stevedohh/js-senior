@@ -130,11 +130,34 @@ function Add(x: number, y: string) {
 ### Parametric polymorphism
 allows a single piece of code to be given a "generic" type, using variables in place of actual types, and then instantiated with particular types as needed. The idea is simple: you state what types will be used by a particular class
 
-```ts
+**Code example**
 
+```ts
 const arrayOfNumbers: Array<number> = [1, 2, 3, 4, 5];
 const arrayOfStrings: Array<string> = ['a', 'b', 'c'];
-
 ```
 
+
+### Sybtype polymorphism
+is a form of type polymorphism in which a subtype is a datatype that is related to another datatype (the supertype) by some notion of substitutability, meaning that program elements, typically subroutines or functions, written to operate on elements of the supertype can also operate on elements of the subtype.
+
+```ts
+class Animal {  
+    makeNoise(): void {  
+        console.log('Noise');  
+    }  
+}  
+  
+class Dog extends Animal {  
+    makeNoise() {  
+        console.log('Bark')  
+    }  
+}  
+  
+class Cat extends Animal {  
+    makeNoise() {  
+        console.log('Meow')  
+    }  
+}
+```
 
