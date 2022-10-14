@@ -76,3 +76,10 @@ Now, if you are logged into your bank account and your cookies are still valid (
 @TODO Расписать типы токенов
 ``` 
 
+# Man-in-the-middle (MitM)
+
+A third party guy intercepts traffic between a web server and a client (browser), and impersonates the web server in order to capture data (such as login credentials or credit card information). The traffic is passed through, possibly with alterations. 
+
+```ad-info
+Open Wi-Fi networks are a typically means of executing this attack.
+```
