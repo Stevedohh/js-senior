@@ -8,63 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e9b3b7cb15c791a",
+            "id": "168560db393a3789",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. TypeScript/Classes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f458d14b9846f72",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "445e74ed9929a2d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. Security/SOP, CORS, CSP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "414bb54300ec0d60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. Security/Types of atack.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a9300c21b216491",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Programming Paradigms/1. OOP.md",
+                "file": "0. JavaScript/12. Функциональные паттерны.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 300
   },
   "right": {
     "id": "368edf7ae4faf8fc",
@@ -130,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Security/Types of atack.md",
+                "file": "0. JavaScript/12. Функциональные паттерны.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Security/Types of atack.md",
+                "file": "0. JavaScript/12. Функциональные паттерны.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Security/Types of atack.md"
+                "file": "0. JavaScript/12. Функциональные паттерны.md"
               }
             }
           },
@@ -187,22 +142,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 300
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "414bb54300ec0d60",
+  "active": "168560db393a3789",
   "lastOpenFiles": [
-    "4. Security/SOP, CORS, CSP.md",
-    "4. Security/Types of atack.md",
-    "3. Communication Protocols/6. REST vs GraphQL.md",
-    "3. Communication Protocols/5. REST.md",
-    "3. Communication Protocols/4. WebSockets and Long Polling.md",
-    "3. Communication Protocols/3. UDP.md",
-    "3. Communication Protocols/2. HTTP.md",
-    "3. Communication Protocols/1. OSI and TCP IP.md",
-    "conflict-files-obsidian-git.md",
-    "2. Programming Paradigms/1. OOP.md"
+    "0. JavaScript/13. Функциональные структуры.md",
+    "0. JavaScript/12. Функциональные паттерны.md",
+    "0. JavaScript/2. Контекст.md",
+    "0. JavaScript/11. Функции.md",
+    "2. Programming Paradigms/1. OOP.md",
+    "0. JavaScript/10. Классы.md",
+    "0. JavaScript/5. Promise.md",
+    "0. JavaScript/4. Symbol.md",
+    "0. JavaScript/3. Прототипы.md",
+    "0. JavaScript/1. Строгий режим.md"
   ]
 }
