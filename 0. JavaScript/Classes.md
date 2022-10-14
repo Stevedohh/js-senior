@@ -77,6 +77,7 @@ console.log(
 --- 
 
 #### Пример приватных полей класса
+
 ```js
 class Human {
     #name;
