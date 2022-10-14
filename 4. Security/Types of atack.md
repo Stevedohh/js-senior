@@ -71,3 +71,8 @@ Now, if you are logged into your bank account and your cookies are still valid (
 -   GET endpoints should be idempotent. Also POST endpoints should not interchangeably accept GET requests with parameters in the query string.
 -   A CSRF token should be included in **form** elements via a hidden input field. This token should be unique per user and stored (for example, in a cookie) such that the server can look up the expected value when the request is sent. For all non-GET requests that have the potential to perform an action, this input field should be compared against the expected value. If there is a mismatch, the request should be aborted.
 -   The token should be regenerated on sign-in.
+
+```js
+@TODO Расписать типы токенов
+``` 
+
