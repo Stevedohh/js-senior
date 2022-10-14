@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Communication Protocols/5. REST.md",
+                "file": "3. Communication Protocols/3. UDP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f458d14b9846f72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Communication Protocols/6. REST vs GraphQL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Communication Protocols/5. REST.md",
+                "file": "3. Communication Protocols/6. REST vs GraphQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Communication Protocols/5. REST.md",
+                "file": "3. Communication Protocols/6. REST vs GraphQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Communication Protocols/5. REST.md"
+                "file": "3. Communication Protocols/6. REST vs GraphQL.md"
               }
             }
           },
@@ -138,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,17 +160,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "c2e9ad817fcb179b",
+  "active": "1f458d14b9846f72",
   "lastOpenFiles": [
+    "3. Communication Protocols/3. UDP.md",
+    "3. Communication Protocols/2. HTTP.md",
     "3. Communication Protocols/4. WebSockets and Long Polling.md",
+    "3. Communication Protocols/5. REST.md",
     "2. Programming Paradigms/1. OOP.md",
     "0. JavaScript/Classes.md",
     "0. JavaScript/Prototype.md",
     "3. Communication Protocols/1. OSI and TCP IP.md",
     "0. JavaScript/Symbol.md",
-    "1. TypeScript/Classes.md",
-    "2. Programming Paradigms/2. FP.md",
-    "3. Communication Protocols/2. HTTP.md",
-    "3. Communication Protocols/3. UDP.md"
+    "1. TypeScript/Classes.md"
   ]
 }
