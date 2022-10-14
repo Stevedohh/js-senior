@@ -11,40 +11,96 @@
             "id": "4e9b3b7cb15c791a",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b0dc6d978f0bc148",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "1. TypeScript/Classes.md",
+                "file": "0. JavaScript/1. Строгий режим.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1f458d14b9846f72",
+            "id": "7f8340daf2785782",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. JavaScript/Prototype.md",
+                "file": "0. JavaScript/2. Контекст.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "445e74ed9929a2d9",
+            "id": "26e0288a3bdd76bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Security/SOP and CORS.md",
+                "file": "0. JavaScript/3. Прототипы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24c7b3126f44792f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. JavaScript/4. Symbol.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1dce1ef98faf2a7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. JavaScript/5. Promise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3da00da467bfd066",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. JavaScript/10. Классы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e83a4d976de85f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. JavaScript/11. Функции.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -110,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. TypeScript/Classes.md",
+                "file": "0. JavaScript/11. Функции.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. TypeScript/Classes.md",
+                "file": "0. JavaScript/11. Функции.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. TypeScript/Classes.md"
+                "file": "0. JavaScript/11. Функции.md"
               }
             }
           },
@@ -172,17 +228,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4c19eed5ee095510",
+  "active": "6e83a4d976de85f0",
   "lastOpenFiles": [
-    "0. JavaScript/Prototype.md",
-    "1. TypeScript/Classes.md",
-    "2. Programming Paradigms/2. FP.md",
-    "3. Communication Protocols/3. UDP.md",
-    "3. Communication Protocols/6. REST vs GraphQL.md",
-    "3. Communication Protocols/5. REST.md",
-    "2. Programming Paradigms/1. OOP.md",
+    "0. JavaScript/10. Классы.md",
+    "0. JavaScript/5. Promise.md",
+    "0. JavaScript/4. Symbol.md",
+    "0. JavaScript/3. Прототипы.md",
+    "0. JavaScript/2. Контекст.md",
+    "0. JavaScript/1. Строгий режим.md",
     "0. JavaScript/Classes.md",
-    "3. Communication Protocols/1. OSI and TCP IP.md",
-    "0. JavaScript/Symbol.md"
+    "0. JavaScript/Symbol.md",
+    "0. JavaScript/Prototype.md",
+    "1. TypeScript/Classes.md"
   ]
 }
