@@ -98,9 +98,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "414bb54300ec0d60",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7a9300c21b216491",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Programming Paradigms/1. OOP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
+<<<<<<< HEAD
         "currentTab": 7
+=======
+        "currentTab": 3
+>>>>>>> 03adfe092049807979375c3a9cc7f2e1b081a215
       }
     ],
     "direction": "vertical"
@@ -150,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 285.5
   },
   "right": {
     "id": "368edf7ae4faf8fc",
@@ -166,7 +190,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "0. JavaScript/11. Функции.md",
+=======
+>>>>>>> 03adfe092049807979375c3a9cc7f2e1b081a215
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +210,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "0. JavaScript/11. Функции.md",
+=======
+>>>>>>> 03adfe092049807979375c3a9cc7f2e1b081a215
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,9 +235,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< HEAD
               "state": {
                 "file": "0. JavaScript/11. Функции.md"
               }
+=======
+              "state": {}
+>>>>>>> 03adfe092049807979375c3a9cc7f2e1b081a215
             }
           },
           {
@@ -223,11 +257,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 391.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
+<<<<<<< HEAD
   "active": "6e83a4d976de85f0",
   "lastOpenFiles": [
     "0. JavaScript/10. Классы.md",
@@ -240,5 +275,19 @@
     "0. JavaScript/Symbol.md",
     "0. JavaScript/Prototype.md",
     "1. TypeScript/Classes.md"
+=======
+  "active": "c002e528b7a5443f",
+  "lastOpenFiles": [
+    "4. Security/CSP, XSS, MITM, CSRF.md",
+    "2. Programming Paradigms/1. OOP.md",
+    "0. JavaScript/Prototype.md",
+    "conflict-files-obsidian-git.md",
+    "2. Programming Paradigms/2. FP.md",
+    "1. TypeScript/Classes.md",
+    "0. JavaScript/Symbol.md",
+    "0. JavaScript/Classes.md",
+    "4. Security/SOP and CORS.md",
+    "3. Communication Protocols/3. UDP.md"
+>>>>>>> 03adfe092049807979375c3a9cc7f2e1b081a215
   ]
 }
