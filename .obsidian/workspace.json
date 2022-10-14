@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Security/Types of atack.md",
+                "file": "0. JavaScript/2. Контекст.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Security/Types of atack.md",
+                "file": "0. JavaScript/2. Контекст.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Security/Types of atack.md",
+                "file": "0. JavaScript/2. Контекст.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Security/Types of atack.md"
+                "file": "0. JavaScript/2. Контекст.md"
               }
             }
           },
@@ -194,15 +194,15 @@
   },
   "active": "414bb54300ec0d60",
   "lastOpenFiles": [
-    "4. Security/SOP, CORS, CSP.md",
+    "2 Контекст.md",
+    "0. JavaScript/2. Контекст.md",
     "4. Security/Types of atack.md",
-    "3. Communication Protocols/6. REST vs GraphQL.md",
-    "3. Communication Protocols/5. REST.md",
-    "3. Communication Protocols/4. WebSockets and Long Polling.md",
-    "3. Communication Protocols/3. UDP.md",
-    "3. Communication Protocols/2. HTTP.md",
+    "2. Programming Paradigms/1. OOP.md",
     "3. Communication Protocols/1. OSI and TCP IP.md",
-    "conflict-files-obsidian-git.md",
-    "2. Programming Paradigms/1. OOP.md"
+    "3. Communication Protocols/2. HTTP.md",
+    "0. JavaScript/1. Строгий режим.md",
+    "0. JavaScript/3. Прототипы.md",
+    "0. JavaScript/4. Symbol.md",
+    "0. JavaScript/5. Promise.md"
   ]
 }
