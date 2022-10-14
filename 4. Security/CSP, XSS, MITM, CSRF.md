@@ -30,5 +30,6 @@ A web site administrator wants to allow users of a web application to include im
 
 Cross-site scripting (XSS) is a security exploit which allows an attacker to inject into a website malicious client-side code. This code is executed by the victims and lets the attackers bypass access controls and impersonate users.
 
-Example of XSS
+**Example of XSS**
 
+![[Pasted image 20221014195601.png]]
