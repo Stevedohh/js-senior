@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. JavaScript/Classes.md",
+                "file": "3. Communication Protocols/5. REST.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. JavaScript/Classes.md",
+                "file": "3. Communication Protocols/5. REST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. JavaScript/Classes.md",
+                "file": "3. Communication Protocols/5. REST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. JavaScript/Classes.md"
+                "file": "3. Communication Protocols/5. REST.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -147,17 +147,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4e9b3b7cb15c791a",
+  "active": "c2e9ad817fcb179b",
   "lastOpenFiles": [
+    "3. Communication Protocols/4. WebSockets and Long Polling.md",
     "2. Programming Paradigms/1. OOP.md",
+    "0. JavaScript/Classes.md",
     "0. JavaScript/Prototype.md",
     "3. Communication Protocols/1. OSI and TCP IP.md",
-    "0. JavaScript/Classes.md",
     "0. JavaScript/Symbol.md",
     "1. TypeScript/Classes.md",
     "2. Programming Paradigms/2. FP.md",
     "3. Communication Protocols/2. HTTP.md",
-    "3. Communication Protocols/3. UDP.md",
-    "3. Communication Protocols/5. REST.md"
+    "3. Communication Protocols/3. UDP.md"
   ]
 }
