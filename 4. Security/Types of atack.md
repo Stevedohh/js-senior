@@ -38,3 +38,4 @@ Cross-site scripting (XSS) is a security exploit which allows an attacker to inj
 
 **Clickjacking** is the practice of tricking a user into clicking on a link, button, etc. that is other than what the user thinks it is. This can be used, for example, to steal login credentials or to get the user's unwitting permission to install a piece of malware.
 
+
