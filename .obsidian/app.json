@@ -1,5 +1,9 @@
 {
   "attachmentFolderPath": "_assets",
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "readableLineLength": true,
+  "tabSize": 3,
+  "defaultViewMode": "source"
 }
