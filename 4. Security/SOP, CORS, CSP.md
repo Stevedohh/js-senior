@@ -9,6 +9,10 @@ Images and iframes works because in SOP we have exceptions. We can load iframe b
 
 ## Cross-origin network access
 
+CORS (Cross-Origin Resource Sharing) - это механизм, который позволяет веб-браузерам выполнять запросы на другой домен, чем тот, на котором выполняется текущая страница. CORS используется для безопасного обмена ресурсами (например, данные, изображения, скрипты) между разными источниками.
+
+Браузеры обычно ограничивают доступ к ресурсам на других доменах по соображениям безопасности. Это означает, что если скрипт на одном домене пытается выполнить запрос на другой домен, то браузер может заблокировать этот запрос. CORS позволяет обойти эту ограничение, предоставляя серверам возможность указать, какие домены могут получить доступ к ресурсам, и какие типы запросов разрешены.
+
 The same-origin policy controls interactions between two different origins, such as when you use [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or an [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) element. These interactions are typically placed into three categories:
 
 -   Cross-origin _writes_ are typically allowed. Examples are links, redirects, and form submissions. Some HTTP requests require [preflight](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#preflighted_requests).
